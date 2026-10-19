@@ -12,11 +12,10 @@
     --green: #198a00;
     --green-dark: #136b00;
 
-    --font-display: "Caveat", cursive;
-    --font-body: "Patrick Hand", "Segoe Print", cursive;
-
-    /* Slightly uneven corners for a hand-drawn feel */
-    --sketch: 14px 4px 12px 5px / 5px 12px 4px 14px;
+    --font-display: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+   
+    --sketch: 16;
 }
 
 /* ---------- Reset & base ---------- */
