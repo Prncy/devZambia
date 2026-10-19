@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevZambia — Build Legally, Deploy Practically</title>
+    <meta name="description" content="A compliance and deployment resource for Zambian developers. Laws, regulators, hosting, payments, and a launch roadmap." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- NAV -->
+    <header class="site-header">
+        <div class="container nav">
+            <a href="#top" class="brand">DevZambia</a>
+            <nav aria-label="Primary">
+                <a href="#laws">Laws</a>
+                <a href="#roadmap">Roadmap</a>
+                <a href="#reference">Reference</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="top">
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="container">
+                <p class="kicker">Developer compliance hub · Zambia</p>
+                <h1>Build legally.<br /><span class="underline">Deploy fearlessly.</span></h1>
+                <p class="lead">
+                    The laws, regulators, hosting, and payment options every Zambian
+                    developer needs, whether you ship locally or go global.
+                </p>
+                <div class="actions">
+                    <a href="#laws" class="btn btn-primary">Explore the laws</a>
+                    <a href="#roadmap" class="btn">Launch roadmap</a>
+                </div>
+
+                <dl class="stats">
+                    <div><dt>Key laws</dt><dd>9</dd></div>
+                    <div><dt>Regulators</dt><dd>5</dd></div>
+                    <div><dt>Launch steps</dt><dd>7</dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <!-- LAWS -->
+        <section id="laws">
+            <div class="container">
+                <p class="kicker">01</p>
+                <h2>Laws &amp; regulators</h2>
+                <p class="section-sub">
+                    Know before you build. These are the statutes and agencies that shape
+                    what you can collect, store, and ship in Zambia.
+                </p>
+
+                <div class="card-grid">
+
+                    <article class="card">
+                        <span class="tag">DP</span>
+                        <h3>Data Protection Act, 2021</h3>
+                        <p>Mandatory registration with the Data Protection Commission if you control or process personal data. Appoint a DPO in high-risk cases and obtain consent.</p>
+                        <a class="card-link" href="https://registration.dataprotection.gov.zm" target="_blank" rel="noopener">DPC registration portal ↗</a>
+                    </article>
+
+                    <article class="card">
+                        <span class="tag">CS</span>
+                        <h3>Cyber Security &amp; Cyber Crimes Act, 2021</h3>
+                        <p>Criminalizes cyberattacks and unauthorized access. Critical information infrastructure operators may need local data storage and registration.</p>
+                    </article>
+
+                    <article class="card">
+                        <span class="tag">ET</span>
+                        <h3>Electronic Communications &amp; Transactions Act, 2021</h3>
+                        <p>Legal foundation for e-commerce and e-signatures. Online platforms must disclose supplier information, pricing, and terms clearly.</p>
+                    </article>
+
+                    <article class="card">
+                        <span class="tag">ZI</span>
+                        <h3>ICT Act, 2009 (ZICTA)</h3>
+                        <p>ZICTA regulates network services and device type approval. Most software apps don't need a licence, but check if your product touches infrastructure or hardware.</p>
+                        <a class="card-link" href="https://www.zicta.zm" target="_blank" rel="noopener">ZICTA official ↗</a>
+                    </article>
+
+                    <article class="card">
+                        <span class="tag">PS</span>
+                        <h3>National Payment System Act, 2026</h3>
+                        <p>If your app handles payments, you likely need a licence or authorization from the Bank of Zambia. Covers consumer protection and complaint procedures.</p>
+                        <a class="card-link" href="https://www.boz.zm" target="_blank" rel="noopener">Bank of Zambia ↗</a>
+                    </article>
+
+                    <article class="card">
+                        <span class="tag">©</span>
+                        <h3>Copyright &amp; Performance Rights Act, 1994</h3>
+                        <p>Code is protected as a literary work for 50 years after publication. Register your intellectual property with PACRA.</p>
+                        <a class="card-link" href="https://www.pacra.org.zm" target="_blank" rel="noopener">PACRA official ↗</a>
+                    </article>
+
+                    <article class="card">
+                        <span class="tag">CP</span>
+                        <h3>Competition &amp; Consumer Protection Act, 2010</h3>
+                        <p>Prohibits misleading advertising and unfair trading practices. Be transparent about pricing, terms, and how you use data.</p>
+                    </article>
+
+                    <article class="card">
+                        <span class="tag">VT</span>
+                        <h3>Value Added Tax Act (ZRA)</h3>
+                        <p>Cross-border digital suppliers to Zambian consumers must register under the simplified VAT regime. Handle it through ZRA e-Services.</p>
+                        <a class="card-link" href="https://portal.zra.org.zm/login" target="_blank" rel="noopener">ZRA e-Services ↗</a>
+                    </article>
+
+                    <article class="card">
+                        <span class="tag">EM</span>
+                        <h3>Employment Code Act &amp; Anti-Corruption Act</h3>
+                        <p>Distinguish employees from contractors to avoid tax and legal liabilities. Bribery and corruption are prohibited in both public and private sectors.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ROADMAP -->
+        <section id="roadmap">
+            <div class="container">
+                <p class="kicker">02</p>
+                <h2>Deployment roadmap</h2>
+                <p class="section-sub">
+                    From code to launch: the practical sequence for getting your app
+                    live in Zambia without legal surprises.
+                </p>
+
+                <ol class="roadmap">
+
+                    <li class="step">
+                        <h3>Register your business (PACRA)</h3>
+                        <p>Your legal identity for contracts, tax, and IP ownership. Register a company or business name online through PACRA or the ZamPortal / GSB platform.</p>
+                        <div class="chips">
+                            <a class="chip" href="https://pacra.org.zm" target="_blank" rel="noopener">pacra.org.zm</a>
+                            <a class="chip" href="https://portal.pacra.org.zm/signin" target="_blank" rel="noopener">PACRA portal</a>
+                        </div>
+                    </li>
+
+                    <li class="step">
+                        <h3>Register with the Data Protection Commission</h3>
+                        <p>If you process personal data, which almost every app does, register before launch. Complete the self-assessment questionnaire through the DPC portal.</p>
+                        <div class="chips">
+                            <a class="chip" href="https://registration.dataprotection.gov.zm" target="_blank" rel="noopener">DPC registration</a>
+                            <a class="chip" href="https://www.dataprotection.gov.zm" target="_blank" rel="noopener">DPC official</a>
+                        </div>
+                    </li>
+
+                    <li class="step">
+                        <h3>Set up tax registration (ZRA)</h3>
+                        <p>Obtain a TPIN through ZRA e-Services. If you supply digital services, register for VAT under the simplified regime where applicable.</p>
+                        <div class="chips">
+                            <a class="chip" href="https://portal.zra.org.zm/login" target="_blank" rel="noopener">ZRA e-Services</a>
+                            <a class="chip" href="https://www.zra.org.zm" target="_blank" rel="noopener">ZRA official</a>
+                        </div>
+                    </li>
+
+                    <li class="step">
+                        <h3>Choose your hosting infrastructure</h3>
+                        <p><strong>Local hosting</strong> reduces latency and simplifies data-protection expectations. <strong>International cloud</strong> gives you scalability and global reach, but make sure your data processing agreements comply with the DPA 2021.</p>
+                        <div class="chips">
+                            <a class="chip" href="https://imbra.co.zm/hosting" target="_blank" rel="noopener">imbra (local)</a>
+                            <a class="chip" href="https://hodi.host" target="_blank" rel="noopener">Hodi (local cloud)</a>
+                            <a class="chip" href="https://hostlist.io/hosting/zambia" target="_blank" rel="noopener">HostList Zambia</a>
+                        </div>
+                    </li>
+
+                    <li class="step">
+                        <h3>Integrate payments (if applicable)</h3>
+                        <p>Mobile money and card integration is available through Zambian gateways like Lipila, Bila, DPO, and LimePay. Check whether your model requires Bank of Zambia authorization.</p>
+                        <div class="chips">
+                            <a class="chip" href="https://pub.dev/packages/lipila_flutter" target="_blank" rel="noopener">Lipila (Flutter)</a>
+                            <a class="chip" href="https://docs.usebila.com" target="_blank" rel="noopener">Bila API</a>
+                            <a class="chip" href="https://www.boz.zm" target="_blank" rel="noopener">Bank of Zambia</a>
+                        </div>
+                    </li>
+
+                    <li class="step">
+                        <h3>Secure your domain &amp; SSL</h3>
+                        <p>Register a <code>.zm</code> domain through a local provider like Zamnet. Most local hosts include free SSL certificates on shared and VPS plans.</p>
+                        <div class="chips">
+                            <a class="chip" href="https://www.zamnet.zm" target="_blank" rel="noopener">Zamnet</a>
+                        </div>
+                    </li>
+
+                    <li class="step">
+                        <h3>Launch, monitor, iterate</h3>
+                        <p>Deploy, set up error logging and uptime monitoring, and make sure your privacy policy and consumer terms are accessible. If you collect data from children under 13, implement parental consent.</p>
+                    </li>
+
+                </ol>
+            </div>
+        </section>
+
+        <!-- REFERENCE -->
+        <section id="reference">
+            <div class="container">
+                <p class="kicker">03</p>
+                <h2>Quick reference</h2>
+                <p class="section-sub">
+                    Every regulator, host, and payment option in one place. Bookmark this
+                    table before your next build.
+                </p>
+
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Area</th>
+                                <th>Regulator / provider</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Data protection registration</td><td>Data Protection Commission</td><td><a href="https://registration.dataprotection.gov.zm" target="_blank" rel="noopener">registration.dataprotection.gov.zm ↗</a></td></tr>
+                            <tr><td>Business &amp; IP registration</td><td>PACRA</td><td><a href="https://pacra.org.zm" target="_blank" rel="noopener">pacra.org.zm ↗</a></td></tr>
+                            <tr><td>Tax &amp; VAT registration</td><td>Zambia Revenue Authority</td><td><a href="https://portal.zra.org.zm/login" target="_blank" rel="noopener">portal.zra.org.zm ↗</a></td></tr>
+                            <tr><td>ICT licensing &amp; type approval</td><td>ZICTA</td><td><a href="https://www.zicta.zm" target="_blank" rel="noopener">zicta.zm ↗</a></td></tr>
+                            <tr><td>Payment systems licensing</td><td>Bank of Zambia</td><td><a href="https://www.boz.zm" target="_blank" rel="noopener">boz.zm ↗</a></td></tr>
+                            <tr><td>Local hosting (shared / VPS)</td><td>imbra</td><td><a href="https://imbra.co.zm/hosting" target="_blank" rel="noopener">imbra.co.zm ↗</a></td></tr>
+                            <tr><td>Local cloud hosting</td><td>Hodi</td><td><a href="https://hodi.host" target="_blank" rel="noopener">hodi.host ↗</a></td></tr>
+                            <tr><td><code>.zm</code> domains &amp; hosting</td><td>Zamnet</td><td><a href="https://www.zamnet.zm" target="_blank" rel="noopener">zamnet.zm ↗</a></td></tr>
+                            <tr><td>Payment gateway (API)</td><td>Bila</td><td><a href="https://docs.usebila.com" target="_blank" rel="noopener">docs.usebila.com ↗</a></td></tr>
+                            <tr><td>Payment gateway (Flutter)</td><td>Lipila</td><td><a href="https://pub.dev/packages/lipila_flutter" target="_blank" rel="noopener">pub.dev/packages/lipila_flutter ↗</a></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="footer-brand">DevZambia</p>
+            <p>Build legally. Deploy fearlessly.</p>
+            <p class="disclaimer">
+                This resource is for informational purposes only and does not
+                constitute legal advice. Always consult a qualified Zambian legal
+                professional for your specific situation.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
